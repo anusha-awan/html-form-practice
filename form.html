@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+</head>
+<body>
+    <header style="background-color: cadetblue;">
+<h1 >
+    MY FORM
+</h1>
+<a href="https://www.w3schools.com/html/html_forms.asp" target="_blank">About  </a>
+<a href="https://www.google.com/search?q=contact+of+forms+html&sca_esv=4da7261d6af0beeb&sxsrf=AE3TifP21G9ia54NUb8M8Fd7PGsdE10Ahw%3A1751455058161&ei=UhVlaOXQCbLwi-gPoOH0kQY&ved=0ahUKEwjlwdPEhp6OAxUy-AIHHaAwPWIQ4dUDCBA&uact=5&oq=contact+of+forms+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWNvbnRhY3Qgb2YgZm9ybXMgaHRtbDIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjaTFAAWOJIcAF4AZABApgBgBSgAYxiqgEJNi0xLjEuMy4yuAEDyAEA-AEBmAIGoAKJQagCFMICBxAjGCcY6gLCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIREAAYgAQYkQIYsQMYgwEYigXCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgwQABiABBhDGIoFGArCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgUQABiABJgDHPEFOscCag59bR-6BgYIARABGAGSBwkxLjYtMS4zLjGgB60rsgcHNi0xLjMuMbgH7EDCBwcyLTEuNC4xyAdH&sclient=gws-wiz-serp">Contact us  </a>
+<a href="https://www.google.com/search?q=contact+of+forms+html&sca_esv=4da7261d6af0beeb&sxsrf=AE3TifP21G9ia54NUb8M8Fd7PGsdE10Ahw%3A1751455058161&ei=UhVlaOXQCbLwi-gPoOH0kQY&ved=0ahUKEwjlwdPEhp6OAxUy-AIHHaAwPWIQ4dUDCBA&uact=5&oq=contact+of+forms+html&gs_lp=Egxnd3Mtd2l6LXNlcnAiFWNvbnRhY3Qgb2YgZm9ybXMgaHRtbDIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCjIHEAAYgAQYCkjaTFAAWOJIcAF4AZABApgBgBSgAYxiqgEJNi0xLjEuMy4yuAEDyAEA-AEBmAIGoAKJQagCFMICBxAjGCcY6gLCAhMQABiABBhDGLQCGIoFGOoC2AEBwgIREAAYgAQYkQIYsQMYgwEYigXCAgsQABiABBiRAhiKBcICChAAGIAEGEMYigXCAgwQABiABBhDGIoFGArCAggQABiABBixA8ICDhAAGIAEGLEDGIMBGIoFwgILEAAYgAQYsQMYgwHCAgUQABiABJgDHPEFOscCag59bR-6BgYIARABGAGSBwkxLjYtMS4zLjGgB60rsgcHNi0xLjMuMbgH7EDCBwcyLTEuNC4xyAdH&sclient=gws-wiz-serp">Help  </a>
+<a href="">New form  </a>
+<br><hr>
+    </header>
+    <main>
+    
+    <form action="#" method="POST" >
+    <label for="Username">Username:</label>
+    <input type="text" required minlength="8" maxlength="15" id="Username" placeholder="Enter your name"><br>
+    <br>
+    
+<label for="Password">Password:</label>
+<input type="Password" required minlength="6" maxlength="8" id="Password" placeholder="Enter your password"><br>
+<br>
+<label for="email">Email:</label>
+<input type="email" placeholder="abcdef@gmail.com" id="email"><br>
+<br>
+<label for="phone">Phone.No:</label>
+<input type="tel" required placeholder="1234-4567890" id="phone" pattern="[0-9]{4}-[0-9]{7}"><br>
+<br>
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" min="0" max="99" value="1"><br>
+<br>
+<label for="payment">Payment:</label>
+<select id="payment">
+    <option value="visa">visa</option>
+    <option value="cash">cash</option>
+    <option value="credit card">credit card</option>
+</select><br>
+<br>
+<label for="title">Title:</label>
+<label for="Mr">Mr.</label>
+<input type="radio" id="Mr" name="title">
+<label for="Ms">Ms.</label>
+<input type="radio" id="Ms" name="title">
+<label for="PhD">PhD</label>
+<input type="radio" id="PhD" name="title"><br><br>
+<label for="bday">Date of Birth:</label>
+<input type="date" id="bday"><br><br>
+<label for="subscribe">Subscribe:</label>
+<input type="checkbox" id="subscribe"><br>
+<br>
+
+<label for="file">File:</label>
+<input type="file" accept="images/png,images/jpeg"><br><br>
+<label for="comments">Comments:</label>
+<textarea id="comments" rows="4" cols="25"></textarea><br><br>
+<input type="submit"><br>
+<br>
+<input type="reset"><br><hr>
+</form>
+</main>
+<footer style="background-color: darksalmon;">
+Author : Anusha Awan<br>
+&copy;copyrightclaimsexcluded<br>
+<small><a href="anushaawan22@gmail.com"> anushaawan22@gmail.com</a></small><hr>
+</footer>
+</body>
+</html>
