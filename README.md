@@ -1,19 +1,13 @@
-# My HTML Form Project
+# Web Dev Essentials 🚀
 
-This project is a basic HTML form page created as part of my web development learning journey.
+A collection of my HTML practice projects as I build my frontend development foundation.
 
-## Features
+## 📁 Projects:
+- **Lyrics Page:** HTML-only webpage for the song "Dandelions" with audio, images, and formatting.
+- **Form Page:** A fully structured form with inputs, validations, and layout elements.
 
-- Semantic HTML structure with header, main, and footer
-- Various form input types: text, password, email, phone, date, radio buttons, checkboxes, file upload, and textarea
-- Form validation using HTML5 attributes like `required`, `minlength`, and `pattern`
-- Navigation links included for related resources
-
-## About Me
-
-Created by Anusha Awan during my early web development practice.  
-Looking forward to improving and adding CSS styling next!
-
----
-
-Feel free to explore and provide feedback.
+## 🔧 Skills:
+- HTML5 basics
+- Forms & inputs
+- Media embedding
+- Semantic tags
